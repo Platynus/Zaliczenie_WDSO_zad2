@@ -1,0 +1,1 @@
+double obliczanieObjSzescianu(double bok);
