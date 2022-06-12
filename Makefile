@@ -17,9 +17,7 @@ all: $(Everything)
 Pole.o: Pole.c
 Objetosc.o: Objetosc.c
 BibPole.a: Pole.o
-	ar rs $@ $<
 BibObjetosc.so: Objetosc.o
-
 Code2.o: Code2.c
 Code2: Code2.o BibObjetosc.so BibPole.a
 
